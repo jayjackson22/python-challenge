@@ -60,7 +60,7 @@ for ea in cand_votes:
 print('------------------\nWinner: '+winner+' \n------------------')
 
 
-text_context = ['Election Results\n------------------\nTotal Votes: '+str(total_votes)+'\n------------------']
+text_context = ['Election Results\n------------------\nTotal Votes: '+str(total_votes)+'\n------------------\n']
 
 with open('./Analysis/PyPoll Analysis.txt', 'w') as txt_file:
     txt_file.writelines(text_context)
